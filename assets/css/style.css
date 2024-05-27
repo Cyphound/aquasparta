@@ -47,3 +47,8 @@ footer p {
 .footer-color {
     background-color: #0b1e2c;
 }
+
+.title-color {
+    color: #BBBBBB;
+    margin-left: -0.5rem;
+}
