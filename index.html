@@ -161,7 +161,7 @@
                 <img src="assets/img/oferta2.jpeg" class="card-img-top" alt="Oferta 2">
                 <div class="card-body">
                     <h5 class="card-title">Pecera de Lujo</h5>
-                    <p class="card-text">Adquiere una pecera de diseño espartano de última generación y llévate gratis un kit de accesorios y decoraciones, para dejar tu casa como un imperio.</p>
+                    <p class="card-text">Adquiere una pecera de diseño espartano de última generación y llévate gratis un kit de accesorios y decoraciones.</p>
                     <a href="#" class="btn btn-primary button-principal">Comprar</a>
                 </div>
             </div>
@@ -181,7 +181,7 @@
                 <img src="assets/img/oferta4.jpeg" class="card-img-top" alt="Oferta 4">
                 <div class="card-body">
                     <h5 class="card-title">Pack de Peces Olímpicos</h5>
-                    <p class="card-text">Lleva a casa un equipo de peces dignos de los dioses del Olimpo. Incluye un Betta "Leónidas", un Tetra "Artemisa" y un Cíclido "Agis" a un precio especial.</p>
+                    <p class="card-text">Lleva a casa un equipo de peces dignos de los dioses del Olimpo. Incluye un Betta "Leónidas", un Tetra "Artemisa" y un Cíclido "Agis".</p>
                     <a href="#" class="btn btn-primary button-principal">Comprar</a>
                 </div>
             </div>
@@ -213,7 +213,18 @@
     <div class="row">
         <div class="col-md-7">
             <h2 class="text-center mb-4 title-font">Testimonios</h2>
-            <!-- Contenido de la sección Testimonios -->
+            <div class="alert alert-success" role="alert">
+                "¡Un festín digno del Olimpo! Mis invitados quedaron asombrados." - Dionisio
+            </div>
+            <div class="alert alert-success" role="alert">
+                "¡Hasta las Moiras se pelearían por tejerles tapices a estos peces!" - Apolo
+            </div>
+            <div class="alert alert-success" role="alert">
+                "¡Tan majestuosos que hasta mi tridente tiembla de envidia!" - Poseidón
+            </div>
+            <div class="alert alert-success" role="alert">
+                "La gracia de estos peces rivaliza con la de las ninfas del bosque." - Artemisa
+            </div>
         </div>
         <div class="col-md-5">
             <h2 class="text-center mb-4 title-font">Contáctanos</h2>
@@ -230,7 +241,7 @@
                     <label for="telefono">Teléfono</label>
                     <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
                 </div>
-                <div class="form-group">
+                <div class="form-group pb-3">
                     <label for="motivo">Motivo de contacto</label>
                     <select class="form-control" id="motivo">
                         <option>Consulta</option>
@@ -238,7 +249,8 @@
                         <option>Sugerencia</option>
                     </select>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <div id="liveAlertPlaceholder"></div>
+                <button type="button" class="btn btn-primary button-principal" id="liveAlertBtn">Enviar</button>
                 <button type="reset" class="btn btn-secondary">Restablecer</button>
             </form>
         </div>
@@ -246,13 +258,27 @@
 </section>
 
 <!-- Pie de página -->
-<footer class="bg-dark text-white text-center py-3 mt-5">
-    <p>&copy; 2024 Tienda de Peces. Todos los derechos reservados.</p>
+<footer class="title-color py-3 footer-color d-flex align-items-center mt-5">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="ps-4 mb-0">&copy; 2024 AquaSparta. Todos los derechos reservados.</p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end pe-4">
+                <ul class="list-unstyled d-flex mb-0" id="acceso">
+                    <li class="nav-item ms-3"><a class="nav-link" target="_blank" href="https://github.com/Cyphound"><i class="bi bi-github"></i></a></li>
+                    <li class="nav-item ms-3"><a class="nav-link" href="#"><i class="bi bi-twitter-x"></i></a></li>
+                    <li class="nav-item ms-3"><a class="nav-link" href="#"><i class="bi bi-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/snnipet.js"></script>
 </body>
 </html>

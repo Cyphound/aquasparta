@@ -103,9 +103,23 @@ footer p {
     font-weight: 300;
 }
 
+#ofertas h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+}
+
+#ofertas p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
 .custom-bg {
     background-image: linear-gradient(to top, white, transparent 60%), url('/assets/img/fondo.png');
     background-size: cover;
     background-repeat: no-repeat; /* Evita la repetición del degradado */
     padding-bottom: 4.5rem;
+}
+
+#acceso li:hover {
+    color: white;
 }
