@@ -100,7 +100,7 @@ footer p {
 }
 
 .custom-bg {
-    background-image: linear-gradient(to top, white, transparent 60%), url('../assets/img/fondo.png');
+    background-image: linear-gradient(to top, white, transparent 60%), url('https://cyphound.github.io/aquasparta/assets/img/fondo.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 4.5rem;
