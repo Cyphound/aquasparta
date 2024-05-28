@@ -11,20 +11,6 @@ body {
     font-size: 1.25rem;
 }
 
-#productos .card {
-    margin-bottom: 20px;
-}
-
-#inicio {
-    background-color: #f8f9fa;
-    padding: 40px 0;
-}
-
-#contacto {
-    background-color: #e9ecef;
-    padding: 40px 0;
-}
-
 footer {
     background-color: #343a40;
     color: white;
@@ -114,9 +100,9 @@ footer p {
 }
 
 .custom-bg {
-    background-image: linear-gradient(to top, white, transparent 60%), url('/assets/img/fondo.png');
+    background-image: linear-gradient(to top, white, transparent 60%), url('../assets/img/fondo.png');
     background-size: cover;
-    background-repeat: no-repeat; /* Evita la repetición del degradado */
+    background-repeat: no-repeat;
     padding-bottom: 4.5rem;
 }
 
